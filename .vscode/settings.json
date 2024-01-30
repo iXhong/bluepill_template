@@ -1,0 +1,8 @@
+{
+    "cmake.configureOnOpen": true,
+    "files.associations": {
+        "nvic.h": "c",
+        "freertos.h": "c"
+    }
+    // "cmake.sourceDirectory": "/home/alice/Documents/Study/codes/STM32/stm32/rtos/FreeRTOSv202212.01/FreeRTOS/Test/CMock/CMock/vendor/unity",
+}

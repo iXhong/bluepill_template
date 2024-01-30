@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/libopencm3/",
+                "${workspaceFolder}/libopencm3/include",
+                "${workspaceFolder}/rtos/FreeRTOSv202212.01/FreeRTOS/Source",
+                "${workspaceFolder}/rtos/FreeRTOSv202212.01/FreeRTOS/Source/include",
+                "${workspaceFolder}/rtos/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM3",
+                "${workspaceFolder}/rtos/blinky2"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "${workspaceFolder}/libopencm3/",
+                    "${workspaceFolder}/libopencm3/include",
+                    "${workspaceFolder}/rtos/FreeRTOSv202212.01/FreeRTOS/Source",
+                    "${workspaceFolder}/rtos/FreeRTOSv202212.01/FreeRTOS/Source/include",
+                    "${workspaceFolder}/rtos/FreeRTOSv202212.01/FreeRTOS/Source/portable/GCC/ARM_CM3",
+                    "${workspaceFolder}/rtos/FreeRTOSv202212.01/"
+                ]
+            },
+            "defines": [
+                "STM32F1"
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
